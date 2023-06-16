@@ -1,3 +1,4 @@
+package LeetCode_Solutions;
 import java.util.Arrays;
 
 class majorityElement {

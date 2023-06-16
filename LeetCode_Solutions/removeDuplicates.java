@@ -1,3 +1,4 @@
+package LeetCode_Solutions;
 import java.util.ArrayList;
 
 public class removeDuplicates {

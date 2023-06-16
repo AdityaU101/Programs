@@ -1,3 +1,4 @@
+package LeetCode_Solutions;
 class VowelCount {
     public int vowelStrings(String[] words, int left, int right) {
         int count=0;

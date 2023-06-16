@@ -1,3 +1,4 @@
+package LeetCode_Solutions;
 class BTBSS2 {
     public int maxProfit(int[] prices) {
         int sum=0;
