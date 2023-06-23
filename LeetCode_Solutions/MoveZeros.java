@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 class MoveZeros {
     public void moveZeroes(int[] nums) {
         int p=0;

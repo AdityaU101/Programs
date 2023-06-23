@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 public class MaxSubarray {
     public int maxSubArray(int[] nums) {
         int res=Integer.MIN_VALUE,sum=0;

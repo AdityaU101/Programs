@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 public class LargestODDNumberInString {
     public String largestOddNumber(String num) {
         int i=num.length()-1;

@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 import java.util.HashSet;
 import java.util.Set;
 

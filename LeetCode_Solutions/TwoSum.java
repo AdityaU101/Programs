@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 import java.util.HashMap;
 import java.util.Map;
 class TwoSum {

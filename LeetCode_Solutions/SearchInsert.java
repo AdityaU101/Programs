@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 public class SearchInsert {
     public int searchInsert(int[] nums, int target) {
         int l=0,r=nums.length-1,mid;

@@ -1,4 +1,3 @@
-package LeetCode_Solutions;
 class ReverseWordsInString {
     public String reverseWords(String s) {
         String sp[] = s.split("\s+");
