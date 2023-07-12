@@ -1,6 +1,6 @@
 
 
-class Solution {
+class soln {
     public int romanToInt(String s) {
         int sum=convert(s.charAt(0));
         for (int i = 0; i < s.length(); i++) {
