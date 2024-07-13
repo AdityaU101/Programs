@@ -1,7 +1,7 @@
-import java.util.LinkedHashSet;
+
 
 class singleNonDuplicate{
-    public int singleNonDuplicate(int[] nums) {
+    public int SingleNonDuplicate(int[] nums) {
         int l = 0;
         int r = nums.length - 1;
     

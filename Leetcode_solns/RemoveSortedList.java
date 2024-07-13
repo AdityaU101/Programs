@@ -5,7 +5,7 @@ public class RemoveSortedList {
             if(temp.val==temp.next.val){
                 temp.next=temp.next.next;
             }
-            else{temp=temp.next;}
+            else{temp=(ListNode) temp.next;}
             
         }
         return head;

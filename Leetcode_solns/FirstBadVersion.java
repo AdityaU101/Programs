@@ -11,4 +11,8 @@ public class FirstBadVersion {
         }
         return left;
     }
+
+    private boolean isBadVersion(int mid) {
+        return false;
+    }
 }
