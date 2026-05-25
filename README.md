@@ -23,36 +23,6 @@ I'm working toward **100–120 problems** as part of my preparation for SWE and 
 
 ---
 
-## 📂 Problem Index
-
-| File | Problem | Topic | Difficulty |
-|---|---|---|---|
-| `ransomnote.java` | Ransom Note | Hash Map | 🟢 Easy |
-| `removeDuplicates.java` | Remove Duplicates from Sorted Array | Array / Two Pointer | 🟢 Easy |
-| `restore_string.java` | Restore the String | String / Sorting | 🟢 Easy |
-| `revLL.java` | Reverse Linked List | Linked List | 🟢 Easy |
-| `rev_vowels.java` | Reverse Vowels of a String | String / Two Pointer | 🟢 Easy |
-| `richest_customer.java` | Richest Customer Wealth | Array / Matrix | 🟢 Easy |
-| `rotateImage.java` | Rotate Image | Matrix / In-Place | 🟡 Medium |
-| `singleNonDuplicate.java` | Single Element in a Sorted Array | Binary Search | 🟡 Medium |
-| `smaller_num_than_curr.java` | How Many Numbers Are Smaller Than the Current | Array / Sorting | 🟢 Easy |
-| `zeroMatrix.java` | Set Matrix Zeroes | Matrix / In-Place | 🟡 Medium |
-
-> 📌 Table will be updated as more solutions are added.
-
----
-
-## 🗂️ Topics Covered
-
-| Topic | Problems Solved |
-|---|---|
-| Arrays & Matrices | `removeDuplicates`, `rotateImage`, `zeroMatrix`, `richest_customer`, `smaller_num_than_curr` |
-| Strings | `ransomnote`, `restore_string`, `rev_vowels` |
-| Linked Lists | `revLL` |
-| Binary Search | `singleNonDuplicate` |
-
----
-
 ## 🛠️ How to Run
 
 All solutions are standalone `.java` files. To run any of them locally:
