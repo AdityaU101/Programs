@@ -48,16 +48,6 @@ Requires **JDK 11+**. Tested with [Eclipse Temurin JDK 21](https://adoptium.net/
 
 ---
 
-## 📈 Progress
-
-```
-Problems Solved  ██████░░░░░░░░░░░░░░  ~10 / 120 target
-```
-
-**Goal:** 100–120 problems before graduation (May 2027) covering all core DSA patterns for SWE interviews.
-
----
-
 ## 🔗 Connect
 
 - 💼 [LinkedIn](https://linkedin.com/in/aditya-upadhyay)
