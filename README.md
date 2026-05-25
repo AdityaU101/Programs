@@ -52,7 +52,7 @@ Requires **JDK 11+**. Tested with [Eclipse Temurin JDK 21](https://adoptium.net/
 
 - 💼 [LinkedIn](https://linkedin.com/in/aditya-upadhyay)
 - 🐙 [GitHub](https://github.com/aditya-upadhyay)
-- 📧 aupadh47@asu.edu
+- 📧 adityau24092003@gmail.com
 
 ---
 
