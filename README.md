@@ -9,7 +9,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-Personal%20Use-lightgrey?style=flat-square)]()
 
-> ⚠️ **Heads up:** These are *my own* solutions — there may be alternate and more efficient approaches for many problems. Please don't copy; use these as a reference to understand the logic and write your own. That's the whole point of LeetCode.
+> ⚠️ **Heads up:** These are *my own* solutions. There may be alternate and more efficient approaches for many problems. Please don't copy. Use these as a reference to understand the logic and write your own. That's the whole point of LeetCode.
 
 </div>
 
@@ -17,7 +17,7 @@
 
 ## 📖 About
 
-This repository contains my Java solutions to LeetCode problems across a range of topics — arrays, strings, linked lists, matrices, hash maps, and more. Each file is named after the problem it solves for easy navigation.
+This repository contains my Java solutions to LeetCode problems across a range of topics like arrays, strings, linked lists, matrices, hash maps, and more. Each file is named after the problem it solves for easy navigation.
 
 I'm working toward **100–120 problems** as part of my preparation for SWE and cloud engineering roles. Solutions are written for clarity first, optimized where possible.
 
@@ -41,10 +41,10 @@ Requires **JDK 11+**. Tested with [Eclipse Temurin JDK 21](https://adoptium.net/
 
 ## 🎯 My Approach
 
-- **Understand first** — read the problem carefully, identify constraints, trace through examples by hand
-- **Brute force → Optimize** — start with the simplest correct solution, then look for better time/space complexity
-- **Comment the logic** — non-obvious steps are commented inline so the reasoning is clear later
-- **One file per problem** — no packages, no boilerplate, just the solution
+- **Understand first** - read the problem carefully, identify constraints, trace through examples by hand
+- **Brute force → Optimize** - start with the simplest correct solution, then look for better time/space complexity
+- **Comment the logic** - non-obvious steps are commented inline so the reasoning is clear later
+- **One file per problem** - no packages, no boilerplate, just the solution
 
 ---
 
