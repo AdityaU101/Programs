@@ -25,5 +25,3 @@ class Solution:
             left = not left
         return ans
 
-
-
