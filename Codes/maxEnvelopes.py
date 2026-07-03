@@ -11,8 +11,6 @@
 #                 dp[i]=max(dp[i],dp[j]+1)
 #     return max(dp)
 
-
-
 class Solution:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
         if not envelopes:
