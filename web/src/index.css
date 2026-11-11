@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/*
+  A pinboard of index cards. One family, Recursive, does everything:
+  casual sans for handwritten-feeling titles, linear mono for code.
+*/
+@theme {
+  --font-sans: "Recursive Variable", system-ui, sans-serif;
+  --color-felt: #2f4a3d;
+  --color-felt-dark: #243a30;
+  --color-card: #fbf7ec;
+  --color-ink: #1f2a24;
+  --color-mute: #6b746c;
+  --color-rule: #b9cde3;
+  --color-red: #d6453b;
+  --color-pin: #e7b43a;
+  --color-java: #b5562b;
+  --color-python: #2f6aa3;
+}
+
+html {
+  background-color: var(--color-felt);
+  background-image: radial-gradient(rgb(255 255 255 / 0.035) 1px, transparent 1.2px);
+  background-size: 5px 5px;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-variation-settings: "CASL" 0.3, "MONO" 0;
+  line-height: 1.5;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-pin);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+@layer components {
+  .casual { font-variation-settings: "CASL" 1, "MONO" 0, "slnt" 0; }
+  .code { font-variation-settings: "CASL" 0, "MONO" 1; font-feature-settings: "ss01", "ss05", "ss08"; }
+  .card-lines {
+    background-color: var(--color-card);
+    background-image:
+      linear-gradient(var(--color-red), var(--color-red)),
+      repeating-linear-gradient(transparent 0 1.55rem, var(--color-rule) 1.55rem calc(1.55rem + 1px));
+    background-size: 100% 2px, 100% 100%;
+    background-position: 0 3.1rem, 0 3.1rem;
+    background-repeat: no-repeat, repeat;
+  }
+}
+
+dialog::backdrop {
+  background: rgb(20 30 25 / 0.6);
+  backdrop-filter: blur(3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
